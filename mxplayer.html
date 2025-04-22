@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mxplayer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div style="display: flex;">
+        <div class="logo"></div>
+        <ul class="nav-items">
+            <li style="color:rgb(8, 117, 176)">Home</li>
+            <li>New & Hot</li>
+            <li>Movies</li>
+            <li>VDesi</li>
+            <li>Romance</li>
+            <li>Comdey</li>
+            <li>Tamil</li>
+            <li>Telugu</li>
+        </ul>
+        </div>
+        <div class="search"><i class="fa-solid fa-magnifying-glass s" style="color: #ffffff; font-size: 20px;position: relative;left:5px;top:5px"></i><input type="text" class="ss" placeholder="Shows,genres,movies and more"></div>
+        <span class="gotoamazon">Go to Amazon</span>
+        <span class="setting"><ul style="color: white; list-style: none; background-color:#1A2224 ;border-radius: 15px;">
+            <li><b>Parental Control</b></li>
+            <li><b>Delete your miniTV data</b></li>
+        </ul></span>
+        <div class="icon">
+           <i class="fa-solid fa-magnifying-glass s" style="color: #ffffff;" onclick="searchs()"></i>
+           <a href="basic.html" target="_blank"> <img src="download (1).svg " height="24" width="24" onmouseover="reveal2('s')" onmouseleave="hide2('s')"></a>
+            <i class="fa-solid fa-gear" style="color: #ffffff;" onmouseover="reveal2('se')" onmouseleave="hide2('se')"></i>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="Screenshot 2025-03-08 012610.png" width="100%" height="400">
+            <img class="slide" src="Screenshot 2025-03-08 012621.png" width="100%" height="400">
+            <img class="slide" src="Screenshot 2025-03-08 012630.png" width="100%" height="400">
+            <img class="slide" src="Screenshot 2025-03-08 012642.png" width="100%" height="400">
+
+        </div>
+    </div>
+    <h2>Trending item Top 10</h2>
+
+    <div class="conten">
+        <div class="sa">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <div class="item item5"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+
+
+    </div>
+
+    <h2>Popular Web Series</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item5a"></div>
+            <div class="item item6"></div>
+            <div class="item item7"></div>
+            <div class="item item7a"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <div class="item item8"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+
+
+    </div>
+    <h2>New in Dubbed Series</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item9"></div>
+            <div class="item item10"></div>
+            <div class="item item11"></div>
+            <div class="item item12"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+            <div class="item item13"></div>
+
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+
+    <h2>Horror, Thriller & Mystery</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item14"></div>
+            <div class="item item15"></div>
+            <div class="item item16"></div>
+            <div class="item item17"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <div class="item item18"></div>
+            <button class="next" onclick="slide(event)">></button>
+
+
+        </div>
+
+
+    </div>
+    <h2>Chart Topping Movies: Dubbed in Hindi</h2>
+    <div class="conten">
+        <div class="sa">
+
+            <div class="item item19"></div>
+            <div class="item item20"></div>
+            <div class="item item21"></div>
+            <div class="item item22"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <div class="item item23"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>Romantic Shows & Movies</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item24"></div>
+            <div class="item item25"></div>
+            <div class="item item26"></div>
+            <div class="item item27"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <div class="item item28"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>Trending in Dubbed Series</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item29"></div>
+            <div class="item item30"></div>
+            <div class="item item31"></div>
+            <div class="item item32"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <div class="item item33"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>New in Dubbed International Movies</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item34"></div>
+            <div class="item item35"></div>
+            <div class="item item36"></div>
+            <div class="item item37"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <div class="item item38"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>TVF Original shows</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item39"></div>
+            <div class="item item40"></div>
+            <div class="item item41"></div>
+            <div class="item item42"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <div class="item item43"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>Dubbed Movies and Shows in Tamil</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item44"></div>
+            <div class="item item45"></div>
+            <div class="item item46"></div>
+            <div class="item item47"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <div class="item item48"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+    <h2>Dubbed Movies and Shows in Telugu</h2>
+    <div class="conten">
+        <div class="sa">
+            <div class="item item49"></div>
+            <div class="item item50"></div>
+            <div class="item item51"></div>
+            <div class="item item52"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <div class="item item53"></div>
+            <button class="next" onclick="slide(event)">></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="information">
+
+            <div class="info">
+
+                <h3>What is Amazon miniTV ?</h3>
+                <br>
+                <p style="color:grey">Amazon miniTV, launched in May 2021, is a free, ad-supported video platform with
+                    an exclusive app and website. It offers a vast range of the latest, trending, and immersive content
+                    across various genres. Consider exploring Amazon miniTV online for a rich viewing experience.</p>
+            </div>
+            <div class="info">
+                <h3>Watch hundreds of popular Web Series, Short Films & other videos for free</h3>
+                <br>
+                <p style="color:grey">With miniTV's video streaming services, you can indulge in a vast library of
+                    popular drama and <u>comedy series</u> such as <u>Aspirants, Yeh Meri Family, Physics Wallah,
+                        Swagger Sharma's Lucky Guy </u>etc. The platform is also host to captivating short films, all
+                    accessible at no cost. Our extensive collection caters to diverse interests for everyone to have an
+                    enriching viewing experience. From engaging storylines in <u>Korean dramas</u> to thought-provoking
+                    Turkish content & <u>romantic web series</u> to celebrity hosted reality shows such as <u>Hip Hop
+                        India</u>, the Amazon miniTV free platform has something for everyone.</p>
+
+            </div>
+            <div class="info">
+                <h3>The features of Amazon miniTV</h3>
+                <br>
+                <p style="color:grey">The platform has a host of exciting features meant to make your viewing experience
+                    exceptional. It is user-friendly, so you can easily explore various titles as you browse through the
+                    site. You can search for any show you want, add your favorite shows to watchlist and binge watch
+                    with auto-play of next episode. You can access<u> popular web series, short films</u>, and videos
+                    for free. Plus, the streaming platform supports ads instead of paid subscriptions to provide free
+                    access for everyone.</p>
+            </div>
+            <div class="info" style="position: relative;top:10px">
+                <h3>How to access Amazon miniTV?</h3>
+                <br>
+                <p style="color:grey">miniTV content is a free, ad-supported video streaming service available in India
+                    only. miniTV content is accessible on iOS 14 and above, Android OS version 6 and above, Fire TV
+                    devices updated to the latest software version, and on all major web browsers. Accessing Amazon
+                    miniTV online is a breeze. Download the Amazon shopping application from the iOS or Android app
+                    store, open the app and click on miniTV icon on the top right side of the homepage. Likewise, to
+                    watch on a larger screen, visit <u>www.amazon.in/minitv </u>on your laptop.</p>
+            </div>
+            <div class="info" style="position: relative;left:-433px">
+                <h3>Stream latest Web Series, Short Films & other videos</h3>
+                <br>
+                <p style="color:grey">Experience the best of entertainment with Amazon miniTV in India. With our
+                    streaming services, you never have to miss out on the <u>latest web series, movies</u>, and other
+                    captivating videos. Some of the recent titles include <u>Campus Beats, Half Love Half Arranged</u>,
+                    and <u>Half CA</u>. Unlock a world of free content with a dash of fleeting ads. Embrace a new form
+                    of entertainment with no strings attached — watch Amazon miniTV today</p>
+            </div>
+        </div>
+        <div class="question">
+
+            <h2>Frequently Asked Questions</h2>
+            <button class="veiw" onclick="more()"> View More</button>
+            <br>
+            <p style="margin-left: 28px; display: flex;gap: 0vh;align-items:center;width:93vw;">Is Amazon miniTV free?<button class="view" onclick="more2(event)">↑</button>
+            </p>
+            <p class="veiwmore" style="color: gray;">Yes, accessing Amazon miniTV is entirely free. The online streaming
+                platform provides access to an expansive selection of content without any subscription fees or charges.
+            </p><br>
+            <hr><br>
+            <p style="margin-left: 28px;">What are the Differences Between miniTV and Prime Video?<button class="view2"
+                    onclick="more2(event)">↑</button></p>
+            <p class="veiwmore" style="color: gray;">Amazon miniTV offers free, ad-supported content within the Amazon
+                shopping app. On the other hand, Prime Video requires a subscription and provides a broader selection of
+                content, including blockbuster movies, TV shows, and exclusive award-winning originals.</p><br>
+            <hr><br>
+            <p class="Questions" style="margin-left: 28px;">Is Amazon mini TV available on laptop/desktop?<button class="view3" onclick="more2(event)">↑</button></p>
+                   
+            <p class="veiwmore" style="color: gray;">Yes, the streaming service is accessible on laptops and desktops.
+                Visit www.amazon.in/minitv on your laptop or desktop computer to enjoy miniTV content.</p>
+            <br class="Questions">
+            <hr class="Questions"><br>
+            <p class="Questions" style="margin-left: 28px;">What sets Amazon miniTV apart from other streaming
+                service<button class="view4" onclick="more2(event)">↑</button>
+            </p>
+            <p class="veiwmore" style="color: gray;">Amazon miniTV stands out from other streaming services by offering
+                a completely free, ad-supported platform. It is accessible within the Amazon shopping app, providing
+                engaging content without needing a subscription.</p>
+            <br class="Questions">
+            <hr class="Questions">
+            <p class="Questions " style="margin-left: 28px;"><br> What's the quality of streaming on Amazon
+                miniTV?<button class="view5" onclick="more2(event)">↑</button>
+            </p>
+            <p class="veiwmore" style="color: gray;">The streaming quality on the platform goes up to full high
+                definition (Full HD). It offers a seamless and enjoyable viewing experience with clear visuals and crisp
+                audio.</p>
+            <br class="Questions">
+            <hr class="Questions"><br>
+
+        </div>
+        <span clas="v" style="color: rgb(0, 89, 255);position: relative;top:4vh;left: 94%;cursor: pointer;" onclick="more3()">View More</span>
+        <div class="list">
+           
+          <ul>
+            <li><b>Trending Web Series</b></li>
+            <li>Adulting Web Series</li>
+            <li>Please Find Attached</li>
+            <li>Sixer Web Series</li>
+            <li>Slum Golf</li>
+            <li>Sixer Web Series</li>
+            <li>Sixer Web Series</li>
+            <li>Sixer Web Series</li>
+            <li>Sixer Web Series</li>
+            <li>Sixer Web Series</li>
+         </ul>
+         <ul>
+            <li><b>Romance</b></li>
+            <li>Campus Beats</li>
+            <li>Lucky Guy Series</li>
+            <li>She Was Pretty</li>
+            <li>She Was Pretty</li>
+         </ul>
+         <ul>
+            <li><b>Movies & Short Films</b></li>
+            <li>The List</li>
+            <li>The Haunting</li>
+            <li>Jahaan</li>
+            <li>Jahaan</li>
+         </ul>
+         <ul>
+            <li><b>Comedy Web Series &<br>Shows</b></li>
+            <li>Comedy Shows</li>
+            <li>Who's Your Gynac</li>
+            <li>Builders Web Series</li>
+            <li>Builders Web Series</li>
+         </ul>
+
+        </div>
+        <div class="last">
+            <img src="download.svg" width="280px" height="38px">
+            <img src="Young_Janta_ko_yahi_mangta.png" width="500px">
+            <img src="play-store-icon.svg" width="150px" height="38px">
+            <img src="app-store-icon.svg" width="120px" height="38px">
+            <img src="qrcode.jpeg" height="100px">
+            <div class="icons">
+                <div style="display: flex;justify-content: space-evenly;width: 280px;">
+                <span class="i" onmouseover="reveal(event)" onmouseleave="hide(event)"><i class="fa-brands fa-twitter" style="color: #bfb9b9; cursor: pointer;"></span></i>
+               
+               <a href="insta.html" target="_blank" style="text-decoration: none;"> <span class="i" onmouseover="reveal(event)" onmouseleave="hide(event)"><i class="fa-brands fa-instagram" style="color: #bfb9b9; cursor: pointer;"></span></i></a>
+                <span class="i" onmouseover="reveal(event)" onmouseleave="hide(event)"><i class="fa-brands fa-facebook" style="color: #bfb9b9; cursor: pointer;"></span></i>
+                <a href="https://www.youtube.com/@MXPlayerOfficial" target="_blank" style="text-decoration: none;"><span class="i" onmouseover="reveal(event)" onmouseleave="hide(event)"><i class="fa-brands fa-youtube" style="color: #bfb9b9; cursor: pointer;"></span></i></a>
+            </div>
+            <div class='icon-title'>
+                <span class="t" > Follow us on Twitter</span>
+                <span class="ig"> Follow us on Instagram</span>
+                <span class="f">Like us on Facebook</span>
+                <span class="y">Watch us on You tube</span>
+            </div>
+            </div>
+          
+        </div>
+        <div style="background-color: black;color: gray;font-size: 10px;"><ul style="list-style: none;display: flex;justify-content: space-between; margin-left: 40px;margin-right: 20px;">
+            <li>Platform: Windows 10</li>
+            <li>Browser: Edge 134.0.0.0</li>
+            <li>SessionId: 258-8258516-0727551 /A2SHEUT4PNKX98</li>
+        </ul>
+        </div>
+    </footer>
+    <script src="mxplayer.js">
+    </script>
+</body>
+
+</html>

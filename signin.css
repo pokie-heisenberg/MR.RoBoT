@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.login{
+    border: 1px solid gray;
+    width: 22vw;
+    height: 33vw;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#email{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+}
+#email::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+.password{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+.submit{
+    height: 35px;
+    width: 18vw;
+    border-radius: 8px;
+    background-color: rgb(41, 126, 255);
+    border: transparent;
+    color: white;
+    font-size: 20px;
+
+}
+.face{
+    color:#008bf5;
+}
+.face:hover{
+    color: white ;
+}
+.signin{
+    border: 1px solid gray;
+    width: 22vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #008bf5;
+}
+.last{
+    margin:auto;
+    width: 22vw;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.info2{
+    list-style: none;
+    display: flex;
+    color: gray;
+   gap: 3vh;
+   font-size: 22px;
+}
+.info3{
+    list-style: none;
+    display: flex;
+   gap: 3vh;
+   font-size: 24px;
+}
+.info2 li span{
+    color: white;
+}
+.underline:hover{
+    border-bottom: 1px solid gray;
+}
+
+.phone{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+.username{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+.fullname{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+.message{
+    height: 25px;
+    width: 17vw;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 26);
+    border: gray solid .2px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}

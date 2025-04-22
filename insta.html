@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="Screenshot 2025-03-13 064831.png" height="60vh">
+        <div class="buttons">
+            <a href="login2.html"><button class="login">Log In</button></a>
+            <button class="sign in" onclick="pop()">Sign In</button>
+        </div>
+    </div>
+    <hr>
+    <div class="profile">
+        <img src="Screenshot 2025-03-13 070322.png" height="220vw">
+        <div class="information">
+            <ul class="info">
+                <li>amazonminitv</li>
+                <li><button class="follow" onclick="follow()">Follow</button></li>
+                <li><i class="fa-solid fa-ellipsis" style="color: #ffffff;"></i></li>
+            </ul>
+            <ul class="info2">
+                <li><span>0 </span>posts </li>
+                <li><span class="fff">29</span> followers</li>
+                <li><span>5 </span>following</li>
+            </ul>
+            <ul class="info3">
+                <li>Amazon</li>
+            </ul>
+        </div>
+    </div>
+    <hr class="chose">
+    <ul style="list-style: none;color: grey; display: flex;justify-content:center;gap:30px;margin-top: 0px;">
+        <li class="s1" style="height: 50px;padding-top:15px;cursor: pointer;color:white" onclick="chose2()">
+            <i class="fa-solid fa-table-cells s1" style="margin-right:5px"></i>POSTS
+        </li>
+        <li class="s2" style="padding-top: 15px;cursor: pointer;" onclick="chose()">
+            <i class="fa-solid fa-id-card-clip s2" style="margin-right:5px;"></i>TAGGED
+        </li>
+    </ul>
+    <img class="im" src="Screenshot 2025-03-13 080007.png" height="300vh" style="margin-left:40%;margin-top: 1%;">
+    <div class="footer">
+        <ul style="color: gray;display:flex;gap:20px;list-style: none;justify-self:center;align-self:end;margin-top: 15vh;cursor: pointer;">
+            <li class="underline">Meta</li>
+            <li class="underline">About</li>
+            <li class="underline">Blog</li>
+            <li class="underline">Jobs</li>
+            <li class="underline">API</li>
+            <li class="underline">Privacy</li>
+            <li class="underline">Terms</li>
+            <li class="underline">Locations</li>
+            <li class="underline">Instagram Lite</li>
+            <li class="underline">Threads</li>
+            <li class="underline">Contact Uploading & Non-users</li>
+            <li class="underline">Meta Verified</li>
+        </ul>
+        <ul style="color: gray;display:flex;gap:20px;list-style: none;justify-self:center;align-self:end;margin-top: 3vh;margin-bottom: 2vh;">
+            <li><select style="color: gray;background-color: black;border: transparent;">
+                <option>English</option>
+                <option>Russian</option>
+                <option>Dutch</option>
+            </select></li>
+            <li>&copy;2025 Instagram from Meta</li>
+        </ul>
+    </div>
+    <div class="popup">
+        <img src="https://www.pngmart.com/files/13/Insta-Logo-PNG-Free-Download.png" height="90" style="margin-top:5px;">
+        <p style="font-weight: bolder;font-size: 20px;margin-left:35px;">You don't have an insta account.<br>Do you want to create an account?</p>
+        <div class="buttons1">
+            <a href="signin.html">
+                <button class="ok">YES</button>
+            </a>
+            <button class="ok" onclick="popoff()">NO</button>
+        </div>
+    </div>
+     <div class="blur"></div>
+    <script src="insta.js"></script>
+</body>
+</html>
