@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sell.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <p class="first">Delivering to Mumbai 400104</p>
+            <div class="add-location">
+                <i class="fa-solid fa-location-dot" style="color: #f4f5f6;"></i>
+                <p class="second">Update location</p>
+            </div>
+        </div>
+
+        <div class="nav-search">
+            <select name="drop" class="drop">
+                <option value="All">All</option>
+                <option value="all category">All category</option>
+            </select>
+            <input type="text" class="search" placeholder="Search Amazon.in">
+            <div class="search-logo">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </div>
+        </div>
+
+        <div class="language border">
+            <div class="flag"></div>
+            <div>
+                <select name="lang" class="lang">
+                    <option>En</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="sign border">
+            <p style="font-size: 12px;" class="hello">
+                <a style="color: white; text-decoration: none;" target="_blank" href="login.html">Hello, sign in</a>
+            </p>
+            <div class="Account">
+                <p>Account &</p>
+                <select class="list">
+                    <option>List</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="ro border">
+            <p style="font-size: 12px; margin-top: 5px; margin-left: 10px;">Returns</p>
+            <p style="font-size: 14px; font-weight: bolder; margin-top: 5px; margin-left: 10px;">& Orders</p>
+        </div>
+
+        <div class="cart border">
+            <i class="fa-solid fa-cart-shopping" style="color: #efeff1; font-size: 25px;"></i>
+            <p style="font-weight: bolder; margin-top: 10px;">Cart</p>
+        </div>
+    </div>
+
+    <div class="navbarrr">
+        <div class="all border">
+            <i class="fa-solid fa-bars" style="color: #fcfcfc;" onclick="slide()"></i>
+            <p>All</p>
+        </div>
+
+        <div class="Fresh border" onmouseenter="function1()" onmouseleave="function2()">
+            <select style="color: white; background-color: #172222; border: transparent;">
+                <option>Fresh</option>
+            </select>
+        </div>
+
+        <div class="mx border">
+            <a target="_blank" href="mxplayer.html" style="color: white; text-decoration: none;">
+                <p>MX Player</p>
+            </a>
+        </div>
+
+        <div class="mx border">
+            <p>Sell</p>
+        </div>
+
+        <div class="mx border" style="width: 92px;">
+            <p>Best Seller</p>
+        </div>
+
+        <div class="mx border">
+            <p>Mobiles</p>
+        </div>
+
+        <div class="mx border" style="width: 102.81px;">
+            <p>Today's Deals</p>
+        </div>
+
+        <div class="mx border">
+            <p>Electronics</p>
+        </div>
+
+        <div class="mx border" style="width: 128px;">
+            <p>Customer Service</p>
+        </div>
+
+        <div class="mx border" style="width: 100px;">
+            <p>Amazon Pay</p>
+        </div>
+
+        <div class="mx border" onmouseenter="func1()" onmouseleave="func2()">
+            <select style="background-color: #172222; color: white; border: transparent;">
+                <option>Prime</option>
+            </select>
+        </div>
+
+        <div class="mx border" style="width: 120px;">
+            <p>Home & Kitchen</p>
+        </div>
+
+        <div class="mx border" style="width: 103.97px;">
+            <p>New Releases</p>
+        </div>
+    </div>
+
+    <div class="img_1">
+        <img class="imgop" src="https://m.media-amazon.com/images/G/31/amazonservices/Selling_fee_drop_GIF.gif" height="550">
+        <div class="img_1_annouced">
+            <p style="font-size: 35px;">Announced:</p>
+            <p style="font-size: 70px; font-weight: bolder;">ZERO referral fee on over 1.2 crore products</p>
+            <p style="font-size: 25px; margin-top: 5px;">Highest-ever seller fee reduction</p>
+            <p style="font-size: 15px; margin-top: 5px; font-weight: bolder; display: flex;">Know more <span class="arrow">🢂</span></p>
+            <button class="signin">Sign up</button>
+        </div>
+    </div>
+    <div class="drop_free">
+        <img class="img_2" src="https://m.media-amazon.com/images/G/31/amazonservices/New_new_new_one_more.gif" height="100px">
+        <span style="font-size: 55px;">Fee drop highlights</span>
+    </div>
+    <div class="prices">
+        <div class="price_1">
+            <h1 style="font-size: 60px;font-weight: bolder;">0%</h1>
+            <p style="font-size:20px;font-weight: bolder;">Referral fees on products under</p>
+            <p style="font-size:20px;font-weight: bolder;">₹300</p>
+        </div>
+        <div class="price_2">
+            <h1 style="font-size: 60px;font-weight: bolder;">₹65</h1>
+            <p style="font-size:20px;font-weight: bolder;">National shipping rates now,</p>
+            <p style="font-size:20px;font-weight: bolder;">from ₹77</p>
+        </div>
+        <div class="price_3">
+            <h1 style="font-size: 60px;font-weight: bolder;">90%</h1>
+            <p style="font-size:20px;font-weight: bolder;">Savings in selling fees on the sale</p>
+            <p style="font-size:20px;font-weight: bolder;">of second unit</p>
+        </div>
+    </div>
+    <div class="category_1">
+        <div class="category_2"><h1 style="font-size: 40px;text-align: center;">Category level impact</h1>
+        <div class="apparel_Home">
+            <div class="apparel">
+                <h1 style="margin-left: 60px;margin-top: 30px;">Apparel</h1>
+                <p style="margin-left:35px;margin-top: 30px; font-weight: bolder;">See up to 16.5% reduction<br>in referral fee for products <=<br>Rs.300.</p>
+                <p style="margin-left:35px;margin-top: 30px; font-weight: bolder; display: flex;align-items: center;gap: 100px;">Check here<span style="font-size: 30px;">+</span></p>
+                <hr width="250px" style="margin-left: 5px;margin-top: 10px;">
+                <img src="https://m.media-amazon.com/images/G/31/amazonservices/Apparel_lifestyle.jpg" class="i_1" height="280"></div>
+            <div class="home_1">
+                <h1 style="margin-left: 60px;margin-top: 30px;">Home</h1>
+                <p style="margin-left:35px;margin-top: 30px; font-weight: bolder;">See up to 15.5% reduction in<br>referral fee for products <=<br>Rs.300.</p>
+                <p style="margin-left:35px;margin-top: 30px; font-weight: bolder; display: flex;align-items: center;gap: 100px;">Check here<span style="font-size: 30px;">+</span></p>
+                <hr width="250px" style="margin-left: 5px;margin-top: 10px;">
+                <img src="https://m.media-amazon.com/images/G/31/amazonservices/Home_lifestyle.jpg" class="i_2" height="280" width="200px"></div>
+            </div>
+            <div class="shoes_Jewelry">
+                <div class="apparel">
+                    <h1 style="margin-left: 60px;margin-top: 30px;">Shoes</h1>
+                    <p style="margin-left:35px;margin-top: 30px; font-weight: bolder;">See up to 15% reduction in<br>in referral fee for products <=<br>Rs.300.</p>
+                    <p style="margin-left:35px;margin-top: 30px; font-weight: bolder; display: flex;align-items: center;gap: 100px;">Check here<span style="font-size: 30px;">+</span></p>
+                    <hr width="250px" style="margin-left: 5px;margin-top: 10px;">
+                    <img src="https://m.media-amazon.com/images/G/31/amazonservices/Shoes_lifestyle.jpg" class="i_3" height="280"></div>
+                <div class="home_1">
+                    <h1 style="margin-left: 60px;margin-top: 30px;">Home</h1>
+                    <p style="margin-left:35px;margin-top: 30px; font-weight: bolder;">See up to 15% reduction in<br>referral fee for products <=<br>Rs.300.</p>
+                    <p style="margin-left:35px;margin-top: 30px; font-weight: bolder; display: flex;align-items: center;gap: 100px;">Check here<span style="font-size: 30px;">+</span></p>
+                    <hr width="250px" style="margin-left: 5px;margin-top: 10px;">
+                    <img src="https://m.media-amazon.com/images/G/31/amazonservices/Jewellery_lifestyle.jpg" class="i_4" height="280" width="200px"></div>
+                    
+                </div>
+        </div></div>
+        <button class="know_more">Know more about fee drop here</button>
+       
+    </div>
+    <div class="announcement">
+        <div class="glow"><i class="fa-solid fa-volume-high blink" style="color: #ffffff;"></i><p class="blink">Just Announced</p></div>
+        <p style="margin:10px;">Sellers can now get further benefits on multi-unit purchases, enjoying up to 90%+ savings in fees on additional units sold. By creating<br> promotions like "Buy 2, Get 10% Off", sellers can maximize their savings under the new fee structure</p>
+        <strong style="margin:10px;">Create promotion here <span class="arrow">🢂</span></strong>
+        <div class="glow_2"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i><p class="blink">Amazon Bazar</p>
+        </div>
+        <p style="margin:10px;">Sellers can now get further benefits on multi-unit purchases, enjoying up to 90%+ savings in fees on additional units sold. By creating<br> promotions like "Buy 2, Get 10% Off", sellers can maximize their savings under the new fee structure</p>
+        <strong style="margin:10px;display: flex;align-items: center;gap: 55%;">Other benifits <span style="font-size: 30px;">+</span></strong>
+        <hr style="margin-top: 30px;" width="64%">
+        <img src="https://m.media-amazon.com/images/G/31/amazonservices/Final.png"  class="img_5" height="400">
+    </div>
+    <div class="howtosell">
+        <strong style="font-size: 60px;margin-left:25%;">How to sell on Amazon.in?</strong>
+        <div class="howtosell_information">
+            <div class="hts_1"><img src="https://m.media-amazon.com/images/G/31/sellonamazon/experiment/HowSellingonAmazonWorks-Template3-Asset1._CB406684202_._SY200_.png"><p><strong>STEP 1: Register your account</strong><br> on Amazon with GST/PAN details and an active bank account</p></div>
+            <div class="hts_2"><img src="https://m.media-amazon.com/images/G/31/sellonamazon/experiment/HowSellingonAmazonWorks-Template3-Asset3._CB406684197_._SY200_.png"><p><strong>
+                STEP 2: Choose storage & shipping</strong><br> Choose storage, packaging, and delivery options</p></div>
+        </div>
+        <div class="howtosell_information">
+            <div class="hts_3"><img src="https://m.media-amazon.com/images/G/31/sellonamazon/experiment/HowSellingonAmazonWorks-Template3-Asset2._CB406684202_._SY200_.png"><p><strong>
+                STEP 3: List your products</strong><br> List your products by providing product and brand details</p></div>
+            <div class="hts_4"><img src="https://m.media-amazon.com/images/G/31/sellonamazon/experiment/WhySellonAmazon-SecurePayment-Option4._SL1280_FMpng_.png" height="200"><p><strong>STEP 4: Complete orders & get paid</strong><br> Deliver orders to customers on time and get paid within 7 days of delivery</p></div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="whybecomeseller">
+        <span style="font-size: 55px;">Why become a seller on Amazon.in?</span>
+    </div>
+    <div class="prices_2">
+        <div class="price_11">
+            <h1 style="font-size:25px;font-weight:900;border-bottom: solid rgb(2, 109, 185) 3px;">Crores of customers</h1>
+            <p style="font-size:20px;font-weight:bolder;">Reach crores of customers on Amazon.in,</p>
+            <p style="font-size:20px;font-weight: bolder;">India's most visited shopping destination.</p>
+        </div>
+        <div class="price_22">
+            <h1 style="font-size: 25px;font-weight: 900;border-bottom: solid rgb(2, 109, 185) 3px;">26,800 crorepati sellers</h1>
+            <p style="font-size:20px;font-weight: bolder;">95,500 lakhpati sellers in 2023 alone. You</p>
+            <p style="font-size:20px;font-weight: bolder;">could be next.</p>
+        </div>
+        <div class="price_33">
+            <h1 style="font-size: 25px;font-weight: 900;border-bottom: solid rgb(2, 109, 185) 3px;">Unbeatable Reach</h1>
+            <p style="font-size:20px;font-weight: bolder;">Deliver to 100% of India's serviceable pincodes, through Easy Ship &Fulfillment by Amazon.</p>
+        </div>
+    </div>
+    <button class="sell_1">Start Selling</button>
+    <a href="#">
+        <div class="backtotop">
+           <p style="color: white;">Back To Top</p>
+        </div>
+     </a>
+     <div class="information" style="color:white;">
+        <ul style="margin-top: 50px;list-style: none;">
+           <li><b>Get to Know<br>Us</b></li>
+           <br>
+           <li><span class="underline">About Amazon </span></li>
+           <br>
+           <li><span class="underline">Careers</span></li>
+           <br>
+           <li><span class="underline">Press Releases</span></li>
+           <br>
+           <li><span class="underline">Amazon Science</span></li>
+        </ul>
+        <ul style="margin-top: 50px;list-style: none;">
+           <li><b>Connect with<br>Us</b></li>
+           <br>
+           <li><span class="underline">Facebook</span></li>
+           <br>
+           <li><span class="underline">Twitter</span></li>
+           <br>
+           <li><span class="underline">Instagram</span></li>
+
+        </ul>
+        <ul style="margin-top: 50px;list-style: none;">
+           <li>
+              <b> Make Money with Us</b>
+           </li>
+           <br>
+           <li><span class="underline">Sell on Amazon</span></li>
+           <br>
+           <li><span class="underline">Sell under Amazon</span> <br><span class="underline">Accelerator</span></li>
+           <br>
+           <li><span class="underline">Protect and Build Your Brand</span></li>
+           <br>
+           <li><span class="underline">Amazon Global Selling</span></li>
+           <br>
+           <li><span class="underline">Supply to Amazon</span></li>
+           <br>
+           <li><span class="underline">Become an Affiliate</span></li>
+           <br>
+           <li><span class="underline">Fulfilment by Amazon</span></li>
+           <br>
+           <li><span class="underline">Advertise Your Products</span></li>
+           <br>
+           <li><span class="underline">Amazon Pay on Merchants</span></li>
+        </ul>
+        <ul style="margin-top: 50px;list-style: none;">
+           <li><b>Let Us Help You</b></li>
+           <br>
+           <li><span class="underline">Your Account</span></li>
+           <br>
+           <li><span class="underline">Returns Centre</span></li>
+           <br>
+           <li><span class="underline">Recalls and Product Safety </span><br>Alerts</li>
+           <br>
+           <li><span class="underline">100% Purchase Protection</span>
+           </li>
+           <br>
+           <li><span class="underline">Amazon App Download</span></li>
+           <br>
+           <li><span class="underline">Help</span></li>
+
+        </ul>
+     </div>
+
+
+
+     <div class="secondlast">
+        <div class="img"></div>
+        <div class="earth">
+           <i class="fa-solid fa-globe" style="color: #ffffff;"></i>
+           <select style="background-color: #232F3E;color: white;border: transparent;font-size: 20px;">
+              <option>English</option>
+           </select>
+        </div>
+        <div class="india">
+           <div class="flag2"></div>
+           <p style="color:white;font-size: 20px;">India</p>
+        </div>
+
+     </div>
+     <div class="last">
+        <ul style="list-style: none;">
+           <li><span class="underline"><b>AbeBooks</b></span></li>
+           <li><span class="underline">Books,art</span></li>
+           <li><span class="underline">& collectibles</span></li>
+           <br>
+           <li><span class="underline"><b>Shopbop</b></span></li>
+           <li><span class="underline">Designer</span></li>
+           <li><span class="underline">Fashion Brands</span></li>
+        </ul>
+        <ul style="list-style: none;">
+           <li><span class="underline"><b>Amazon Web Services</b></span></li>
+           <li><span class="underline">Scalable Cloud</span></li>
+           <li><span class="underline">Computing Services</span></li>
+           <br>
+           <li><span class="underline"><b>Amazon Business</b></span></li>
+           <li><span class="underline">Everything For</span></li>
+           <li><span class="underline">Your Business</span></li>
+
+
+        </ul>
+        <ul style="list-style: none;">
+           <li><span class="underline"><b>Audible</b></span></li>
+           <li><span class="underline">Download</span></li>
+           <li><span class="underline">Audio Books</span></li>
+           <br>
+           <li><span class="underline"><b>Prime Now</b></span></li>
+           <li><span class="underline">2-Hour Delivery</span></li>
+           <li><span class="underline">on Everyday Items</span></li>
+
+
+        </ul>
+        <ul style="list-style: none;">
+           <li><span class="underline"><b>IMDb</b></span></li>
+           <li><span class="underline">Movies,TV</span></li>
+           <li><span class="underline">& Celebrities</span></li>
+           <br>
+           <li><span class="underline"><b>Amazon Prime Music</b></span></li>
+           <li><span class="underline">100 million songs,ad-</span></li>
+           <li><span class="underline">free</span></li>
+           <li><span class="underline">Over 15 million podcast</span></li>
+           <li><span class="underline">episodes</span></li>
+
+
+        </ul>
+        <di></di>
+     </div>
+     <div class="last1">
+        <ul style="display: flex;list-style: none;gap:5px;">
+           <li class="underline"><b>Conditions of use & Sale</b></li>
+           <li class="underline"><b>Privacy Notice</b></li>
+           <li class="underline"><b>Intrest-based Ads</b></li>
+        </ul>
+        <p>&copy;1996-2025,Amazon.com,lnc.or its affiliates</p>
+     </div>
+     <button class="cancel" onclick="slide_back()">X</button>
+
+     <div class="menubar">
+        <div
+           style="display: flex;justify-content:space-evenly;background-color: #172222;height: 50px;align-items: center;font-weight: 900;position: sticky;top:0px">
+           <i class="fa-solid fa-circle-user" style="color: #ffffff;font-size: 30px;"></i>
+           <p
+              style="font-size: 20px; color: #efeff1;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+              Hello,Sign in </p>
+        </div>
+
+        <ul style="list-style: none;">
+           <li><b>Trending</b></li>
+           <li>Bestsellers</li>
+           <li>New Releases</li>
+           <li>Movers and Shakers</li>
+        </ul>
+        <hr>
+        <ul style="list-style: none;">
+           <li><b>Digital Content and Devices</b></li>
+           <li>Echo & Alexa<span>></span></li>
+           <li>Fire TV<span>></span></li>
+           <li>Kindle E-Readers & eBooks<span>></span></li>
+           <li>Audible Audiobooks<span>></span></li>
+           <li>Amazon Prime Video<span>></span></li>
+           <li>Amazon Prime Music<span>></span></li>
+        </ul>
+        <hr>
+        <ul style="list-style: none;">
+           <li><b>Shop by Category</b></li>
+           <li>Mobiles,Computer</li>
+           <li>TV,Appliances,Electronics</li>
+           <li>Men's Fashion</li>
+           <li>Women's Fashion</li>
+           <li onclick="app()" class="jk">see all ↓</li>
+           <ul class="eeee">
+              <li>Home,Kichen,Pets</li>
+              <li>Beauty,Health,Grocery</li>
+              <li>Sports,Fitness,Bags,Luggage</li>
+              <li>Toys,Baby Products,Kids'Fashion</li>
+              <li>Car,Motorbike,Industrial</li>
+              <li>Books</li>
+              <li>Movies,Music & Video Games</li>
+           </ul>
+
+        </ul>
+        <hr>
+        <ul style="list-style: none;">
+           <li><b>Programs & Features</b></li>
+           <li>Amazon Pay</li>
+           <li>Gift Cards & Mobile Recharges</li>
+           <li>Amazon Launchpad</li>
+           <li>Amanzon Business</li>
+           <li>See all</li>
+
+        </ul>
+        <hr>
+        <ul style="list-style: none;">
+           <li><b>Help & Settings</b></li>
+           <li>Your Account</li>
+           <li>Customer Service</li>
+           <a href="login.html" style="text-decoration: none;color:black">
+              <li>Sign in</li>
+           </a><br><br><br>
+        </ul>
+
+     </div>
+  </footer>
+  <div class="nib" onmouseenter="function1()" onmouseleave="function2()"></div>
+  <div class="nib2" onmouseenter="func1()" onmouseleave="func2()"></div>
+  <div class="blur"></div>
+  <div class="freshimg" onmouseenter="function1()" onmouseleave="function2()">
+
+     <div class="fjko">
+        <div class="fim"><img src="31PgK9rqbzL._SY269_FMpng_.png" height="80"></div>
+        <div class="fim"><img src="21hOOiPs0KL._SY135_FMpng_.png" height="40"></div>
+
+     </div>
+     <a href="#" style="text-decoration:none;position: relative;top:-30px;left:-50px;color: rgb(23, 112, 246);">Shop
+        all groceries on Amazon</a>
+  </div>
+  <div class="primeimg" onmouseenter="func1()" onmouseleave="func2()">
+     <img src="IN-Prime-PIN-TryPrime-MultiBen-Apr18-400x400._CB612889281_.jpg" height="250px" width="270px">
+  </div>
+</body>
+<script src="basic.js"></script>
+
+</body>
+</html>
