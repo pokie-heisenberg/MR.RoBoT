@@ -1,11 +1,19 @@
-# MR.RoBoT
-# AmanZindabaad
 
 # 🛍️ TechBazaar — A Media-Rich E-commerce + Social Web Platform
 
 **TechBazaar** is a dynamic full-stack web application that blends the functionality of an e-commerce platform (like Amazon) with media streaming features (like MX Player) and social interactions (inspired by Instagram). It is designed using HTML, CSS, JavaScript, PHP for server-side logic, and MySQL for persistent storage.
 
 ---
+
+## 🔗 Live Demo
+
+**Explore the full website live at:**  
+👉 [https://mr-ro-bo-t-aifg.vercel.app/](https://mr-ro-bo-t-aifg.vercel.app/)
+
+[🔓 Click to Open the Project](https://mr-ro-bo-t-aifg.vercel.app/)
+
+---
+
 
 ## 🌐 Website Overview
 
@@ -119,6 +127,8 @@ CREATE TABLE login_logs (
 
 ---
 
+
+
 ## 📈 Future Enhancements
 
 - Add email verification & password reset
@@ -140,3 +150,4 @@ CREATE TABLE login_logs (
 This project can be used for learning, showcasing full-stack skills, or further developing into a SaaS-style platform.
 
 ---
+
